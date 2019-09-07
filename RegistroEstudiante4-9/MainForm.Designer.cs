@@ -78,12 +78,12 @@
             // Aviso
             // 
             this.Aviso.AutoSize = true;
-            this.Aviso.Location = new System.Drawing.Point(71, 178);
+            this.Aviso.Location = new System.Drawing.Point(71, 177);
             this.Aviso.Name = "Aviso";
-            this.Aviso.Size = new System.Drawing.Size(470, 13);
+            this.Aviso.Size = new System.Drawing.Size(460, 13);
             this.Aviso.TabIndex = 1;
-            this.Aviso.Text = "Saludos Profesor, este es mi registro estudiante hay agregados desde el ID 3 en a" +
-    "delante, gracias.";
+            this.Aviso.Text = "Saludos Profesor, este es mi registro estudiante hay agregados desde el ID 3 hast" +
+    "a el 7, gracias.";
             // 
             // MainFrom
             // 
