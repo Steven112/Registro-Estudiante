@@ -328,7 +328,7 @@
             this.Controls.Add(this.Nuevobutton);
             this.Controls.Add(this.Guardarbutton);
             this.Name = "RegistroEstudiante";
-            this.Text = "MainForm";
+            this.Text = "Registro";
             ((System.ComponentModel.ISupportInitialize)(this.IdnumericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyerrorProvider)).EndInit();
             this.ResumeLayout(false);
