@@ -245,7 +245,7 @@
             // Eliminarbutton
             // 
             this.Eliminarbutton.Image = global::RegistroEstudiante4_9.Properties.Resources.icons8_eliminar_24;
-            this.Eliminarbutton.Location = new System.Drawing.Point(209, 309);
+            this.Eliminarbutton.Location = new System.Drawing.Point(207, 309);
             this.Eliminarbutton.Name = "Eliminarbutton";
             this.Eliminarbutton.Size = new System.Drawing.Size(75, 59);
             this.Eliminarbutton.TabIndex = 37;
