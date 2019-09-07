@@ -94,7 +94,7 @@
             this.Controls.Add(this.MymenuStrip);
             this.MainMenuStrip = this.MymenuStrip;
             this.Name = "MainFrom";
-            this.Text = "MaiForm";
+            this.Text = "MainForm";
             this.Load += new System.EventHandler(this.Registro_Load);
             ((System.ComponentModel.ISupportInitialize)(this.MyerrorProvider)).EndInit();
             this.MymenuStrip.ResumeLayout(false);
