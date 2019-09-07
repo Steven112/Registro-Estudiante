@@ -32,8 +32,9 @@
             this.MyerrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.MymenuStrip = new System.Windows.Forms.MenuStrip();
             this.registroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registroEstudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Aviso = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.MyerrorProvider)).BeginInit();
             this.MymenuStrip.SuspendLayout();
             this.SuspendLayout();
@@ -61,24 +62,35 @@
             this.registroToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.registroToolStripMenuItem.Text = "Registro";
             // 
+            // registroEstudianteToolStripMenuItem
+            // 
+            this.registroEstudianteToolStripMenuItem.Name = "registroEstudianteToolStripMenuItem";
+            this.registroEstudianteToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.registroEstudianteToolStripMenuItem.Text = "Registro Estudiante";
+            this.registroEstudianteToolStripMenuItem.Click += new System.EventHandler(this.RegistroEstudianteToolStripMenuItem_Click);
+            // 
             // consultaToolStripMenuItem
             // 
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
             this.consultaToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.consultaToolStripMenuItem.Text = "Consulta";
             // 
-            // registroEstudianteToolStripMenuItem
+            // Aviso
             // 
-            this.registroEstudianteToolStripMenuItem.Name = "registroEstudianteToolStripMenuItem";
-            this.registroEstudianteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.registroEstudianteToolStripMenuItem.Text = "Registro Estudiante";
-            this.registroEstudianteToolStripMenuItem.Click += new System.EventHandler(this.RegistroEstudianteToolStripMenuItem_Click);
+            this.Aviso.AutoSize = true;
+            this.Aviso.Location = new System.Drawing.Point(71, 178);
+            this.Aviso.Name = "Aviso";
+            this.Aviso.Size = new System.Drawing.Size(470, 13);
+            this.Aviso.TabIndex = 1;
+            this.Aviso.Text = "Saludos Profesor, este es mi registro estudiante hay agregados desde el ID 3 en a" +
+    "delante, gracias.";
             // 
             // MainFrom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 379);
+            this.Controls.Add(this.Aviso);
             this.Controls.Add(this.MymenuStrip);
             this.MainMenuStrip = this.MymenuStrip;
             this.Name = "MainFrom";
@@ -98,6 +110,7 @@
         private System.Windows.Forms.ToolStripMenuItem registroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registroEstudianteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultaToolStripMenuItem;
+        private System.Windows.Forms.Label Aviso;
     }
 }
 
